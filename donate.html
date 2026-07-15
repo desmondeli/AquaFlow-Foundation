@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Donate — AquaFlow Foundation</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <!-- Credential Bar (required for submission) -->
@@ -20,9 +24,9 @@
     <div class="nav-wrap">
       <a href="index.html" class="logo">
         <svg class="logo-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <circle cx="20" cy="20" r="19" stroke="#0077B6" stroke-width="2"/>
-          <path d="M20 8c-5 7-8 11-8 15a8 8 0 0016 0c0-4-3-8-8-15z" fill="#0077B6"/>
-          <path d="M14 25c1.5 2 3.5 3 6 3" stroke="#90E0EF" stroke-width="1.6" stroke-linecap="round"/>
+          <circle cx="20" cy="20" r="19" stroke="#0077B6" stroke-width="2" />
+          <path d="M20 8c-5 7-8 11-8 15a8 8 0 0016 0c0-4-3-8-8-15z" fill="#0077B6" />
+          <path d="M14 25c1.5 2 3.5 3 6 3" stroke="#90E0EF" stroke-width="1.6" stroke-linecap="round" />
         </svg>
         <span class="logo-text">AquaFlow Foundation</span>
       </a>
@@ -51,11 +55,12 @@
     <div class="container">
       <span class="page-hero-eyebrow">Support Our Work</span>
       <h1>Your Gift Brings Clean Water Closer</h1>
-      <p>Every contribution — large or small — goes directly toward boreholes, sanitation facilities, and hygiene education across Ghana.</p>
+      <p>Every contribution, large or small, goes directly toward boreholes, sanitation facilities, and hygiene
+        education across Ghana.</p>
     </div>
     <div class="wave-divider">
       <svg viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true">
-        <path d="M0,32 C240,60 480,0 720,20 C960,40 1200,10 1440,30 L1440,60 L0,60 Z" fill="#F8F9FA"/>
+        <path d="M0,32 C240,60 480,0 720,20 C960,40 1200,10 1440,30 L1440,60 L0,60 Z" fill="#F8F9FA" />
       </svg>
     </div>
   </section>
@@ -69,7 +74,10 @@
       <div class="split-copy">
         <span class="section-eyebrow">Why It Matters</span>
         <h2 class="section-heading">Why Your Support Matters</h2>
-        <p>Clean water changes more than health outcomes — it changes how families spend their days. When a community no longer has to walk hours for water, children stay in school, parents can work, and preventable illness declines. Your donation funds the drilling, materials, training, and follow-up support that make these projects last well beyond their launch day.</p>
+        <p>Clean water changes more than health outcomes. It changes how families spend their days. When a community no
+          longer has to walk hours for water, children stay in school, parents can work, and preventable illness
+          declines. Your donation funds the drilling, materials, training, and follow-up support that make these
+          projects last well beyond their launch day.</p>
       </div>
     </div>
   </section>
@@ -83,16 +91,16 @@
 
       <div class="impact-grid">
         <div class="card impact-card">
-          <span class="impact-amount">GH₵100</span>
-          <p>Provides hygiene education materials for one household for a full year.</p>
+          <span class="impact-amount">GH₵10</span>
+          <p>Supplies a student with clean drinking cups and hand soap at school.</p>
         </div>
         <div class="card impact-card">
-          <span class="impact-amount">GH₵500</span>
-          <p>Funds clean water access for one family for six months.</p>
+          <span class="impact-amount">GH₵20</span>
+          <p>Provides a household with a safe water storage bucket and cover.</p>
         </div>
         <div class="card impact-card">
-          <span class="impact-amount">GH₵2,500</span>
-          <p>Contributes directly to the construction of a community borehole.</p>
+          <span class="impact-amount">GH₵50</span>
+          <p>Funds a water-quality testing kit to verify local source safety.</p>
         </div>
       </div>
     </div>
@@ -106,37 +114,15 @@
       <p class="section-intro">Choose an amount below, or enter a custom contribution.</p>
 
       <form class="form-card" action="#" method="post">
-        <fieldset>
-          <legend>Select an Amount (GH₵)</legend>
-          <div class="amount-group">
-            <div class="amount-option">
-              <input type="radio" id="amt100" name="amount" value="100">
-              <label for="amt100">100</label>
-            </div>
-            <div class="amount-option">
-              <input type="radio" id="amt500" name="amount" value="500" checked>
-              <label for="amt500">500</label>
-            </div>
-            <div class="amount-option">
-              <input type="radio" id="amt2500" name="amount" value="2500">
-              <label for="amt2500">2,500</label>
-            </div>
-            <div class="amount-option">
-              <input type="radio" id="amtCustom" name="amount" value="custom">
-              <label for="amtCustom">Custom</label>
-            </div>
-          </div>
-        </fieldset>
-
         <div class="form-group">
-          <label for="customAmount">Custom Amount (optional)</label>
-          <input type="number" id="customAmount" name="customAmount" min="1" placeholder="e.g. 750">
+          <label for="customAmount">Custom Amount</label>
+          <input type="number" id="customAmount" name="customAmount" min="1" placeholder="e.g. 50" required>
         </div>
 
         <div class="form-row">
           <div class="form-group">
             <label for="donorName">Full Name</label>
-            <input type="text" id="donorName" name="donorName" placeholder="e.g. Abena Owusu" required>
+            <input type="text" id="donorName" name="donorName" placeholder="e.g. Desmond Dzakpasu" required>
           </div>
           <div class="form-group">
             <label for="donorEmail">Email Address</label>
@@ -157,7 +143,8 @@
           <textarea id="donorMessage" name="donorMessage" rows="3" placeholder="Leave a note of support..."></textarea>
         </div>
 
-        <p class="form-note">This is an academic project — the form is functional in structure but does not process real payments.</p>
+        <p class="form-note">This is an academic project, the form is functional in structure but does not process real
+          payments.</p>
 
         <div class="form-actions">
           <button type="submit" class="btn btn-primary">Donate Now</button>
@@ -172,7 +159,8 @@
       <div class="footer-grid">
         <div class="footer-col">
           <div class="footer-brand">AquaFlow Foundation</div>
-          <p>Bringing clean water and dignified sanitation to communities across Ghana — built locally, sustained locally, known globally.</p>
+          <p>Bringing clean water and dignified sanitation to communities across Ghana, built locally, sustained
+            locally, known globally.</p>
           <div class="social-links">
             <a href="#" aria-label="Facebook">f</a>
             <a href="#" aria-label="Twitter/X">x</a>
@@ -202,18 +190,21 @@
         <div class="footer-col">
           <h4>Contact</h4>
           <ul>
-            <li>Kumasi, Ashanti Region, Ghana</li>
-            <li>+233 24 000 0000</li>
-            <li>info@aquaflowfoundation.org</li>
+            <li>Takoradi, Western Region, Ghana</li>
+            <li><a href="tel:+233597973525">+233 59 797 3525</a> and <a href="tel:+233207276569">+233 20 727 6569</a>
+            </li>
+            <li><a href="mailto:info@aquaflowfoundation.org">info@aquaflowfoundation.org</a></li>
           </ul>
         </div>
       </div>
 
       <div class="footer-bottom">
-        &copy; 2026 AquaFlow Foundation. All rights reserved. | Student Project — Dzakpasu Desmond Elikem Kwaku (BC/ITS/25/125)
+        &copy; 2026 AquaFlow Foundation. All rights reserved. | Student Project, Dzakpasu Desmond Elikem Kwaku
+        (BC/ITS/25/125)
       </div>
     </div>
   </footer>
 
 </body>
+
 </html>
